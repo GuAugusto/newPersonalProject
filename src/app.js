@@ -5,7 +5,7 @@ const app = express();
 // Middleware para analisar JSON
 app.use(express.json());
 
-// Coneção ao banco de dados MongoDB
+
 mongoose.connect('mongodb://localhost:27017/blog', {
   useNewUrlParser: true,
   useUnifiedTopology: true
